@@ -1,6 +1,5 @@
 import PlaygroundSupport
 import UIKit
-import APIKit
 import Himotoki
 import GarageClient
 
