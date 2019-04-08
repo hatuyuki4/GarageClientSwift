@@ -9,7 +9,7 @@ public protocol GarageConfiguration {
 }
 
 public extension GarageConfiguration {
-    public var defaultUserAgent: String {
+    var defaultUserAgent: String {
         let clientName = "GarageClientSwift"
 
         if let info = Bundle.main.infoDictionary {
@@ -22,18 +22,18 @@ public extension GarageConfiguration {
         return clientName
     }
 
-    public var headers: [String: String] {
+    var headers: [String: String] {
         return [
             "Accept": "application/json",
             "User-Agent": defaultUserAgent,
         ]
     }
 
-    public var pathPrefix: String {
+    var pathPrefix: String {
         return "v1"
     }
 
-    public var verbose: Bool {
+    var verbose: Bool {
         return false
     }
 }

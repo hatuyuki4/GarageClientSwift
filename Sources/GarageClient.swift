@@ -4,7 +4,7 @@ import Result
 import Himotoki
 
 open class GarageClient {
-    open let configuration: GarageConfiguration
+    public let configuration: GarageConfiguration
     open var session: Session!
 
     public init(configuration: GarageConfiguration) {

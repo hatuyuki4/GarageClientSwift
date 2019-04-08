@@ -17,25 +17,25 @@ public protocol GarageDecodeResponseOption {
 }
 
 public extension GarageRequestParameterContainer {
-    public var queryParameters: [String: Any]? {
+    var queryParameters: [String: Any]? {
         return nil
     }
 
-    public var bodyParameters: BodyParameters? {
+    var bodyParameters: BodyParameters? {
         return nil
     }
 
-    public var headerFields: [String: String] {
+    var headerFields: [String: String] {
         return [:]
     }
 
-    public func intercept(urlRequest: NSMutableURLRequest) throws -> NSMutableURLRequest {
+    func intercept(urlRequest: NSMutableURLRequest) throws -> NSMutableURLRequest {
         return urlRequest
     }
 }
 
 public extension GarageDecodeResponseOption {
-    public var decodeRootKeyPath: Himotoki.KeyPath? {
+    var decodeRootKeyPath: Himotoki.KeyPath? {
         return nil
     }
 }

@@ -143,12 +143,12 @@ struct MultipleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: Resourc
         let parameters = headerParameters(from: urlResponse)
 
         if let decodeResponseOption = baseRequest as? GarageDecodeResponseOption, let rootKeyPath = decodeResponseOption.decodeRootKeyPath {
-            guard let resource: [D] = try? decodeArray(object, rootKeyPath: rootKeyPath) else {
+            guard let resource: [D] = try? decodeValue(object, rootKeyPath: rootKeyPath) else {
                 throw ResponseError.unexpectedObject(object)
             }
             return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
         } else {
-            guard let resource: [D] = try? decodeArray(object) else {
+            guard let resource: [D] = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
             }
             return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)

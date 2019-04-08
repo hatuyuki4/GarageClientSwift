@@ -13,10 +13,10 @@ public struct LinkHeader {
             }
 
             func trim(_ string: String) -> String {
-                guard string.characters.count > 2 else {
+                guard string.count > 2 else {
                     return ""
                 }
-                return String(string[string.characters.index(after: string.startIndex)..<string.characters.index(before: string.endIndex)])
+                return String(string[string.index(after: string.startIndex)..<string.index(before: string.endIndex)])
             }
 
             func value(_ field: String) -> String? {
@@ -67,7 +67,7 @@ public struct LinkHeader {
     }
 
     public init?(string: String) {
-        let elements = string.components(separatedBy: ", ").flatMap { Element(string: $0) }
+        let elements = string.components(separatedBy: ", ").compactMap { Element(string: $0) }
 
         first = elements.filter { $0.rel == "first" }.first
         prev = elements.filter { $0.rel == "prev" }.first
