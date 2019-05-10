@@ -46,10 +46,8 @@
 		573B24811CCA4E52003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B831CCA440900F7C0AF /* GarageClient.framework */; };
 		573B24831CCA4EB5003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B3E1CCA41DD00F7C0AF /* GarageClient.framework */; };
 		573B24961CCA50A8003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; };
-		573B24971CCA50A8003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24941CCA50A8003860F5 /* Result.framework */; };
 		573B24981CCA50A8003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24951CCA50A8003860F5 /* Himotoki.framework */; };
 		573B249C1CCA50BB003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24991CCA50BB003860F5 /* APIKit.framework */; };
-		573B249D1CCA50BB003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249A1CCA50BB003860F5 /* Result.framework */; };
 		573B249E1CCA50BB003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; };
 		573B249F1CCA50CE003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; };
 		573B24A01CCA50CE003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24941CCA50A8003860F5 /* Result.framework */; };
@@ -58,10 +56,8 @@
 		573B24A31CCA50DF003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249A1CCA50BB003860F5 /* Result.framework */; };
 		573B24A41CCA50DF003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; };
 		573B24A81CCA50ED003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24A51CCA50ED003860F5 /* APIKit.framework */; };
-		573B24A91CCA50ED003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24A61CCA50ED003860F5 /* Result.framework */; };
 		573B24AA1CCA50ED003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24A71CCA50ED003860F5 /* Himotoki.framework */; };
 		573B24AE1CCA50FD003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; };
-		573B24AF1CCA50FD003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; };
 		573B24B01CCA50FD003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; };
 		573B24B11CCA510A003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; };
 		573B24B21CCA510A003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; };
@@ -182,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				573B24961CCA50A8003860F5 /* APIKit.framework in Frameworks */,
-				573B24971CCA50A8003860F5 /* Result.framework in Frameworks */,
 				573B24981CCA50A8003860F5 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				573B24A81CCA50ED003860F5 /* APIKit.framework in Frameworks */,
-				573B24A91CCA50ED003860F5 /* Result.framework in Frameworks */,
 				573B24AA1CCA50ED003860F5 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				573B24AE1CCA50FD003860F5 /* APIKit.framework in Frameworks */,
-				573B24AF1CCA50FD003860F5 /* Result.framework in Frameworks */,
 				573B24B01CCA50FD003860F5 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				573B249C1CCA50BB003860F5 /* APIKit.framework in Frameworks */,
-				573B249D1CCA50BB003860F5 /* Result.framework in Frameworks */,
 				573B249E1CCA50BB003860F5 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
