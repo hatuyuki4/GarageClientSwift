@@ -4,7 +4,7 @@ import Himotoki
 
 open class GarageClient {
     public let configuration: GarageConfiguration
-    open var session: Session!
+    open var session: APIKit.Session!
 
     public init(configuration: GarageConfiguration) {
         self.configuration = configuration
