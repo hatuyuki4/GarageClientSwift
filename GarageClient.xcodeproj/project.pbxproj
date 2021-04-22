@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,20 +45,12 @@
 		570B0BC01CCA469500F7C0AF /* LinkHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B0A741CC7BBAF00F7C0AF /* LinkHeaderTests.swift */; };
 		573B24811CCA4E52003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B831CCA440900F7C0AF /* GarageClient.framework */; };
 		573B24831CCA4EB5003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B3E1CCA41DD00F7C0AF /* GarageClient.framework */; };
-		573B24961CCA50A8003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; };
-		573B24981CCA50A8003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24951CCA50A8003860F5 /* Himotoki.framework */; };
-		573B249C1CCA50BB003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24991CCA50BB003860F5 /* APIKit.framework */; };
-		573B249E1CCA50BB003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; };
 		573B249F1CCA50CE003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; };
 		573B24A01CCA50CE003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24941CCA50A8003860F5 /* Result.framework */; };
 		573B24A11CCA50CE003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24951CCA50A8003860F5 /* Himotoki.framework */; };
 		573B24A21CCA50DF003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24991CCA50BB003860F5 /* APIKit.framework */; };
 		573B24A31CCA50DF003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249A1CCA50BB003860F5 /* Result.framework */; };
 		573B24A41CCA50DF003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; };
-		573B24A81CCA50ED003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24A51CCA50ED003860F5 /* APIKit.framework */; };
-		573B24AA1CCA50ED003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24A71CCA50ED003860F5 /* Himotoki.framework */; };
-		573B24AE1CCA50FD003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; };
-		573B24B01CCA50FD003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; };
 		573B24B11CCA510A003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; };
 		573B24B21CCA510A003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; };
 		573B24B31CCA510A003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; };
@@ -71,6 +63,22 @@
 		573B24D91CCB0265003860F5 /* APIKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		573B24DA1CCB0265003860F5 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		573B24DB1CCB0265003860F5 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC31D26315C42000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
+		745FC31E26315C42000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC32326315C43000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
+		745FC32426315C43000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC32826315CB7000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
+		745FC32926315CB7000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC32A26315CB7000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
+		745FC32B26315CB7000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC33126315CEF000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
+		745FC33226315CEF000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC33326315CEF000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
+		745FC33426315CEF000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC33726315CF6000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
+		745FC33826315CF6000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		745FC33926315CF6000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
+		745FC33A26315CF6000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +145,54 @@
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		745FC31F26315C42000853EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				745FC31E26315C42000853EA /* APIKit.xcframework in Embed Frameworks */,
+				745FC32426315C43000853EA /* Himotoki.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FC32C26315CB7000853EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				745FC32926315CB7000853EA /* APIKit.xcframework in Embed Frameworks */,
+				745FC32B26315CB7000853EA /* Himotoki.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FC33526315CEF000853EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				745FC33226315CEF000853EA /* APIKit.xcframework in Embed Frameworks */,
+				745FC33426315CEF000853EA /* Himotoki.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FC33B26315CF6000853EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				745FC33826315CF6000853EA /* APIKit.xcframework in Embed Frameworks */,
+				745FC33A26315CF6000853EA /* Himotoki.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +226,8 @@
 		573B24AB1CCA50FD003860F5 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/tvOS/APIKit.framework; sourceTree = "<group>"; };
 		573B24AC1CCA50FD003860F5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
 		573B24AD1CCA50FD003860F5 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/tvOS/Himotoki.framework; sourceTree = "<group>"; };
+		745FC31526315B23000853EA /* Himotoki.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Himotoki.xcframework; path = Carthage/Build/Himotoki.xcframework; sourceTree = "<group>"; };
+		745FC31626315B23000853EA /* APIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = APIKit.xcframework; path = Carthage/Build/APIKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,8 +235,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B24961CCA50A8003860F5 /* APIKit.framework in Frameworks */,
-				573B24981CCA50A8003860F5 /* Himotoki.framework in Frameworks */,
+				745FC32826315CB7000853EA /* APIKit.xcframework in Frameworks */,
+				745FC32A26315CB7000853EA /* Himotoki.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +255,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B24A81CCA50ED003860F5 /* APIKit.framework in Frameworks */,
-				573B24AA1CCA50ED003860F5 /* Himotoki.framework in Frameworks */,
+				745FC33126315CEF000853EA /* APIKit.xcframework in Frameworks */,
+				745FC33326315CEF000853EA /* Himotoki.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,8 +264,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B24AE1CCA50FD003860F5 /* APIKit.framework in Frameworks */,
-				573B24B01CCA50FD003860F5 /* Himotoki.framework in Frameworks */,
+				745FC33726315CF6000853EA /* APIKit.xcframework in Frameworks */,
+				745FC33926315CF6000853EA /* Himotoki.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +284,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B249C1CCA50BB003860F5 /* APIKit.framework in Frameworks */,
-				573B249E1CCA50BB003860F5 /* Himotoki.framework in Frameworks */,
+				745FC31D26315C42000853EA /* APIKit.xcframework in Frameworks */,
+				745FC32326315C43000853EA /* Himotoki.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +379,8 @@
 		573B24B41CCA5138003860F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				745FC31626315B23000853EA /* APIKit.xcframework */,
+				745FC31526315B23000853EA /* Himotoki.xcframework */,
 				573B24AB1CCA50FD003860F5 /* APIKit.framework */,
 				573B24AC1CCA50FD003860F5 /* Result.framework */,
 				573B24AD1CCA50FD003860F5 /* Himotoki.framework */,
@@ -383,6 +443,7 @@
 				570B0B3A1CCA41DD00F7C0AF /* Frameworks */,
 				570B0B3B1CCA41DD00F7C0AF /* Headers */,
 				570B0B3C1CCA41DD00F7C0AF /* Resources */,
+				745FC32C26315CB7000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -420,6 +481,7 @@
 				570B0B561CCA41F500F7C0AF /* Frameworks */,
 				570B0B571CCA41F500F7C0AF /* Headers */,
 				570B0B581CCA41F500F7C0AF /* Resources */,
+				745FC33526315CEF000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -438,6 +500,7 @@
 				570B0B631CCA420800F7C0AF /* Frameworks */,
 				570B0B641CCA420800F7C0AF /* Headers */,
 				570B0B651CCA420800F7C0AF /* Resources */,
+				745FC33B26315CF6000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,6 +538,7 @@
 				570B0B7F1CCA440900F7C0AF /* Frameworks */,
 				570B0B801CCA440900F7C0AF /* Headers */,
 				570B0B811CCA440900F7C0AF /* Resources */,
+				745FC31F26315C42000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -511,7 +575,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = slightair;
 				TargetAttributes = {
 					570B0B3D1CCA41DD00F7C0AF = {
@@ -741,6 +805,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -766,7 +831,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -802,6 +867,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -821,10 +887,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -849,7 +916,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-Mac";
 				PRODUCT_NAME = GarageClient;
@@ -875,7 +946,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-Mac";
 				PRODUCT_NAME = GarageClient;
@@ -895,7 +970,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -914,7 +993,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -938,8 +1021,12 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-watchOS";
 				PRODUCT_NAME = GarageClient;
 				SDKROOT = watchos;
@@ -965,8 +1052,12 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-watchOS";
 				PRODUCT_NAME = GarageClient;
 				SDKROOT = watchos;
@@ -991,15 +1082,19 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-tvOS";
 				PRODUCT_NAME = GarageClient;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1017,15 +1112,19 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-tvOS";
 				PRODUCT_NAME = GarageClient;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1037,12 +1136,16 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1054,12 +1157,16 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1077,8 +1184,12 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOS";
 				PRODUCT_NAME = GarageClient;
 				SKIP_INSTALL = YES;
@@ -1100,8 +1211,12 @@
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOS";
 				PRODUCT_NAME = GarageClient;
 				SKIP_INSTALL = YES;
@@ -1117,7 +1232,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1132,7 +1251,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/GarageClient/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
