@@ -25,7 +25,6 @@ open class GarageClient {
 
     open func sendRequest<R: GarageRequest, D: Himotoki.Decodable>
         (_ request: R, handler: @escaping (Result<GarageResponse<D>, SessionTaskError>) -> Void = { result in }) -> SessionTask? where R.Resource == D {
-        print("debug print3")
         let resourceRequest = RequestBuilder.buildRequest(from: request, configuration: configuration)
         return session.send(resourceRequest) { result in
             switch result {
@@ -39,7 +38,6 @@ open class GarageClient {
 
     open func sendRequest<R: GarageRequest, D: Himotoki.Decodable>
         (_ request: R, handler: @escaping (Result<GarageResponse<[D]>, SessionTaskError>) -> Void = { result in }) -> SessionTask? where R.Resource: Collection, R.Resource.Iterator.Element == D {
-        print("debug print2")
         let resourceRequest = RequestBuilder.buildRequest(from: request, configuration: configuration)
         return session.send(resourceRequest) { result in
             switch result {
@@ -53,7 +51,6 @@ open class GarageClient {
 
     open func sendRequest<R: GarageRequest, D: Swift.Decodable>
         (_ request: R, handler: @escaping (Result<GarageResponse<D>, SessionTaskError>) -> Void = { result in }) -> SessionTask? where R.Resource == D {
-        print("debug print1")
         let resourceRequest = RequestBuilder.buildRequest(from: request, configuration: configuration)
         return session.send(resourceRequest) { result in
             switch result {

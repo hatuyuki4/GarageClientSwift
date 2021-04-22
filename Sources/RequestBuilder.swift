@@ -128,7 +128,7 @@ struct SingleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: ResourceR
             guard let resource: D = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
         }
     }
 }
@@ -151,7 +151,7 @@ struct MultipleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: Resourc
             guard let resource: [D] = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
         }
     }
 }
@@ -172,26 +172,23 @@ struct CodableResourceRequest<R: GarageRequest, D: Swift.Decodable>: ResourceReq
         guard let resource = object as? D else {
             throw ResponseError.unexpectedObject(object)
         }
-        return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
+        return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
     }
 }
 
 struct RequestBuilder {
     static func buildRequest<R: GarageRequest, D: Himotoki.Decodable>
         (from baseRequest: R, configuration: GarageConfiguration) -> SingleResourceRequest<R, D> {
-        print("garage print1")
         return SingleResourceRequest(baseRequest: baseRequest, configuration: configuration)
     }
 
     static func buildRequest<R: GarageRequest, D: Himotoki.Decodable>
         (from baseRequest: R, configuration: GarageConfiguration) -> MultipleResourceRequest<R, D> where R.Resource: Collection {
-        print("garage print2")
         return MultipleResourceRequest(baseRequest: baseRequest, configuration: configuration)
     }
 
     static func buildRequest<R: GarageRequest, D: Swift.Decodable>
         (from baseRequest: R, configuration: GarageConfiguration) -> CodableResourceRequest<R, D> {
-        print("garage print3")
         return CodableResourceRequest(baseRequest: baseRequest, configuration: configuration)
     }
 }
