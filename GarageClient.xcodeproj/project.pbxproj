@@ -45,24 +45,6 @@
 		570B0BC01CCA469500F7C0AF /* LinkHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B0A741CC7BBAF00F7C0AF /* LinkHeaderTests.swift */; };
 		573B24811CCA4E52003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B831CCA440900F7C0AF /* GarageClient.framework */; };
 		573B24831CCA4EB5003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B3E1CCA41DD00F7C0AF /* GarageClient.framework */; };
-		573B249F1CCA50CE003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; };
-		573B24A01CCA50CE003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24941CCA50A8003860F5 /* Result.framework */; };
-		573B24A11CCA50CE003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24951CCA50A8003860F5 /* Himotoki.framework */; };
-		573B24A21CCA50DF003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24991CCA50BB003860F5 /* APIKit.framework */; };
-		573B24A31CCA50DF003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249A1CCA50BB003860F5 /* Result.framework */; };
-		573B24A41CCA50DF003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; };
-		573B24B11CCA510A003860F5 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; };
-		573B24B21CCA510A003860F5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; };
-		573B24B31CCA510A003860F5 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; };
-		573B24D31CCB0233003860F5 /* APIKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24931CCA50A8003860F5 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D41CCB0233003860F5 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24941CCA50A8003860F5 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D51CCB0233003860F5 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24951CCA50A8003860F5 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D61CCB0248003860F5 /* APIKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24991CCA50BB003860F5 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D71CCB0248003860F5 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249A1CCA50BB003860F5 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D81CCB0248003860F5 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B249B1CCA50BB003860F5 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24D91CCB0265003860F5 /* APIKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AB1CCA50FD003860F5 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24DA1CCB0265003860F5 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AC1CCA50FD003860F5 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		573B24DB1CCB0265003860F5 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 573B24AD1CCA50FD003860F5 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC31D26315C42000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
 		745FC31E26315C42000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC32326315C43000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
@@ -112,9 +94,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				573B24D31CCB0233003860F5 /* APIKit.framework in Copy Frameworks */,
-				573B24D41CCB0233003860F5 /* Result.framework in Copy Frameworks */,
-				573B24D51CCB0233003860F5 /* Himotoki.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,9 +104,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				573B24D61CCB0248003860F5 /* APIKit.framework in Copy Frameworks */,
-				573B24D71CCB0248003860F5 /* Result.framework in Copy Frameworks */,
-				573B24D81CCB0248003860F5 /* Himotoki.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +114,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				573B24D91CCB0265003860F5 /* APIKit.framework in Copy Frameworks */,
-				573B24DA1CCB0265003860F5 /* Result.framework in Copy Frameworks */,
-				573B24DB1CCB0265003860F5 /* Himotoki.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,18 +187,6 @@
 		570B0B831CCA440900F7C0AF /* GarageClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GarageClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570B0B8C1CCA440900F7C0AF /* GarageClient iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GarageClient iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		570B0B9A1CCA464A00F7C0AF /* GarageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageClient.h; sourceTree = "<group>"; };
-		573B24931CCA50A8003860F5 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/Mac/APIKit.framework; sourceTree = "<group>"; };
-		573B24941CCA50A8003860F5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		573B24951CCA50A8003860F5 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/Mac/Himotoki.framework; sourceTree = "<group>"; };
-		573B24991CCA50BB003860F5 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
-		573B249A1CCA50BB003860F5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		573B249B1CCA50BB003860F5 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
-		573B24A51CCA50ED003860F5 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/watchOS/APIKit.framework; sourceTree = "<group>"; };
-		573B24A61CCA50ED003860F5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
-		573B24A71CCA50ED003860F5 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/watchOS/Himotoki.framework; sourceTree = "<group>"; };
-		573B24AB1CCA50FD003860F5 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/tvOS/APIKit.framework; sourceTree = "<group>"; };
-		573B24AC1CCA50FD003860F5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
-		573B24AD1CCA50FD003860F5 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/tvOS/Himotoki.framework; sourceTree = "<group>"; };
 		745FC31526315B23000853EA /* Himotoki.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Himotoki.xcframework; path = Carthage/Build/Himotoki.xcframework; sourceTree = "<group>"; };
 		745FC31626315B23000853EA /* APIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = APIKit.xcframework; path = Carthage/Build/APIKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,9 +205,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B249F1CCA50CE003860F5 /* APIKit.framework in Frameworks */,
-				573B24A01CCA50CE003860F5 /* Result.framework in Frameworks */,
-				573B24A11CCA50CE003860F5 /* Himotoki.framework in Frameworks */,
 				573B24831CCA4EB5003860F5 /* GarageClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +231,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B24B11CCA510A003860F5 /* APIKit.framework in Frameworks */,
-				573B24B21CCA510A003860F5 /* Result.framework in Frameworks */,
-				573B24B31CCA510A003860F5 /* Himotoki.framework in Frameworks */,
 				570B0B711CCA420800F7C0AF /* GarageClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +248,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B24A21CCA50DF003860F5 /* APIKit.framework in Frameworks */,
-				573B24A31CCA50DF003860F5 /* Result.framework in Frameworks */,
-				573B24A41CCA50DF003860F5 /* Himotoki.framework in Frameworks */,
 				573B24811CCA4E52003860F5 /* GarageClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,18 +333,6 @@
 			children = (
 				745FC31626315B23000853EA /* APIKit.xcframework */,
 				745FC31526315B23000853EA /* Himotoki.xcframework */,
-				573B24AB1CCA50FD003860F5 /* APIKit.framework */,
-				573B24AC1CCA50FD003860F5 /* Result.framework */,
-				573B24AD1CCA50FD003860F5 /* Himotoki.framework */,
-				573B24A51CCA50ED003860F5 /* APIKit.framework */,
-				573B24A61CCA50ED003860F5 /* Result.framework */,
-				573B24A71CCA50ED003860F5 /* Himotoki.framework */,
-				573B24991CCA50BB003860F5 /* APIKit.framework */,
-				573B249A1CCA50BB003860F5 /* Result.framework */,
-				573B249B1CCA50BB003860F5 /* Himotoki.framework */,
-				573B24931CCA50A8003860F5 /* APIKit.framework */,
-				573B24941CCA50A8003860F5 /* Result.framework */,
-				573B24951CCA50A8003860F5 /* Himotoki.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -911,7 +851,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
@@ -941,7 +881,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Info.plist;
@@ -1017,7 +957,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1048,7 +988,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1078,7 +1018,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1108,7 +1048,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1178,9 +1118,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1193,6 +1134,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOS";
 				PRODUCT_NAME = GarageClient;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1205,9 +1147,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1220,6 +1163,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.clv.GarageClient-iOS";
 				PRODUCT_NAME = GarageClient;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
