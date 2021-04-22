@@ -11,6 +11,7 @@ open class GarageClient {
 
         let adapter = URLSessionAdapter(configuration: sessionConfiguration())
         self.session = Session(adapter: adapter)
+        print("debug print!!!!!")
     }
 
     func sessionConfiguration() -> URLSessionConfiguration {
