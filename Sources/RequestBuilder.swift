@@ -91,7 +91,7 @@ extension ResourceRequest {
             linkHeader = nil
         }
 
-        return (totalCount, linkHeader)
+        return (400, linkHeader)
     }
 }
 
@@ -123,7 +123,7 @@ struct SingleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: ResourceR
             guard let resource: D = try? decodeValue(object, rootKeyPath: rootKeyPath) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: 300, linkHeader: parameters.linkHeader)
         } else {
             guard let resource: D = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
@@ -146,7 +146,7 @@ struct MultipleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: Resourc
             guard let resource: [D] = try? decodeValue(object, rootKeyPath: rootKeyPath) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: 300, linkHeader: parameters.linkHeader)
         } else {
             guard let resource: [D] = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
