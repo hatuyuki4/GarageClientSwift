@@ -91,7 +91,7 @@ extension ResourceRequest {
             linkHeader = nil
         }
 
-        return (400, linkHeader)
+        return (totalCount, linkHeader)
     }
 }
 
@@ -102,11 +102,7 @@ struct CodableParser<D: Swift.Decodable> : DataParser {
     }
 
     func parse(data: Data) throws -> Any {
-
-        guard let resource = try? JSONDecoder().decode(D.self, from: data)  else {
-            throw ResponseError.unexpectedObject(data)
-        }
-        return resource
+        return data
     }
 }
 
@@ -123,12 +119,12 @@ struct SingleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: ResourceR
             guard let resource: D = try? decodeValue(object, rootKeyPath: rootKeyPath) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: 300, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
         } else {
             guard let resource: D = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
         }
     }
 }
@@ -146,12 +142,12 @@ struct MultipleResourceRequest<R: GarageRequest, D: Himotoki.Decodable>: Resourc
             guard let resource: [D] = try? decodeValue(object, rootKeyPath: rootKeyPath) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: 300, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
         } else {
             guard let resource: [D] = try? decodeValue(object) else {
                 throw ResponseError.unexpectedObject(object)
             }
-            return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
+            return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
         }
     }
 }
@@ -169,10 +165,11 @@ struct CodableResourceRequest<R: GarageRequest, D: Swift.Decodable>: ResourceReq
     func response(from object: Any, urlResponse: HTTPURLResponse) throws -> GarageResponse<D> {
 
         let parameters = headerParameters(from: urlResponse)
-        guard let resource = object as? D else {
+        guard let data = object as? Data, let resource = try? JSONDecoder().decode(D.self, from: data)  else {
             throw ResponseError.unexpectedObject(object)
         }
-        return GarageResponse(resource: resource, totalCount: 200, linkHeader: parameters.linkHeader)
+
+        return GarageResponse(resource: resource, totalCount: parameters.totalCount, linkHeader: parameters.linkHeader)
     }
 }
 
