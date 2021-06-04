@@ -46,21 +46,13 @@
 		573B24811CCA4E52003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B831CCA440900F7C0AF /* GarageClient.framework */; };
 		573B24831CCA4EB5003860F5 /* GarageClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B0B3E1CCA41DD00F7C0AF /* GarageClient.framework */; };
 		745FC31D26315C42000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
-		745FC31E26315C42000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC32326315C43000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
-		745FC32426315C43000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC32826315CB7000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
-		745FC32926315CB7000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC32A26315CB7000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
-		745FC32B26315CB7000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC33126315CEF000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
-		745FC33226315CEF000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC33326315CEF000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
-		745FC33426315CEF000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC33726315CF6000853EA /* APIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; };
-		745FC33826315CF6000853EA /* APIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31626315B23000853EA /* APIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		745FC33926315CF6000853EA /* Himotoki.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; };
-		745FC33A26315CF6000853EA /* Himotoki.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 745FC31526315B23000853EA /* Himotoki.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,54 +108,6 @@
 			files = (
 			);
 			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745FC31F26315C42000853EA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				745FC31E26315C42000853EA /* APIKit.xcframework in Embed Frameworks */,
-				745FC32426315C43000853EA /* Himotoki.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745FC32C26315CB7000853EA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				745FC32926315CB7000853EA /* APIKit.xcframework in Embed Frameworks */,
-				745FC32B26315CB7000853EA /* Himotoki.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745FC33526315CEF000853EA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				745FC33226315CEF000853EA /* APIKit.xcframework in Embed Frameworks */,
-				745FC33426315CEF000853EA /* Himotoki.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745FC33B26315CF6000853EA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				745FC33826315CF6000853EA /* APIKit.xcframework in Embed Frameworks */,
-				745FC33A26315CF6000853EA /* Himotoki.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -383,7 +327,6 @@
 				570B0B3A1CCA41DD00F7C0AF /* Frameworks */,
 				570B0B3B1CCA41DD00F7C0AF /* Headers */,
 				570B0B3C1CCA41DD00F7C0AF /* Resources */,
-				745FC32C26315CB7000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,7 +364,6 @@
 				570B0B561CCA41F500F7C0AF /* Frameworks */,
 				570B0B571CCA41F500F7C0AF /* Headers */,
 				570B0B581CCA41F500F7C0AF /* Resources */,
-				745FC33526315CEF000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -440,7 +382,6 @@
 				570B0B631CCA420800F7C0AF /* Frameworks */,
 				570B0B641CCA420800F7C0AF /* Headers */,
 				570B0B651CCA420800F7C0AF /* Resources */,
-				745FC33B26315CF6000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,7 +419,6 @@
 				570B0B7F1CCA440900F7C0AF /* Frameworks */,
 				570B0B801CCA440900F7C0AF /* Headers */,
 				570B0B811CCA440900F7C0AF /* Resources */,
-				745FC31F26315C42000853EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
